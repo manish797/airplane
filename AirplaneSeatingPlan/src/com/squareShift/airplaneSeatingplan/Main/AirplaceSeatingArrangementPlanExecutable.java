@@ -75,9 +75,9 @@ public class AirplaceSeatingArrangementPlanExecutable {
 		executeSeatingSystem.takingUserInputs();
 
 		seatingPreference = new HashMap<>();
-		seatingPreference.put(1, "M");
+		seatingPreference.put(1, "A");
 		seatingPreference.put(2, "W");
-		seatingPreference.put(3, "A");
+		seatingPreference.put(3, "M");
 
 		executeSeatingSystem.executeSeating();
 
